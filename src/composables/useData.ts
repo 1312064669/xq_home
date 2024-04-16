@@ -18,7 +18,7 @@ export const useData = () => {
    * 网站列表
    */
   const websites = ref<Website[]>([
-    { name: '主页', href: 'https://xinqiangdai.com/', icon: 'mdi:web-check' },
+    { name: '主页', href: 'https://xinqiangdai.cn/', icon: 'mdi:web-check' },
     { name: '博客', href: 'https://blog.xinqiangdai.cn/', icon: 'fa6-solid:blog' },
     { name: '今日热榜', href: 'https://hot.imsyy.top/', icon: 'fa6-solid:fire' },
   ])
