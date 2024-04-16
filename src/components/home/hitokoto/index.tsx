@@ -18,8 +18,8 @@ export default defineComponent({
   setup() {
 
     const hitokoto = ref<Hitokoto>({
-      hitokoto: '己所不欲勿施于人',
-      from: 'dushuai',
+      hitokoto: 'Make Progress Together',
+      from: 'XinQ',
     })
 
     function getData() {
