@@ -11,7 +11,7 @@ export default defineComponent({
   props: {
     text: {
       type: String,
-      default: 'hover me ✌'
+      default: 'Hello 👋'
     }
   },
 
