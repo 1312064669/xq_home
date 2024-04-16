@@ -18,7 +18,7 @@ export default defineComponent({
   setup() {
 
     const hitokoto = ref<Hitokoto>({
-      hitokoto: 'Make Progress Together',
+      hitokoto: 'Make Progress Together!',
       from: 'XinQ',
     })
 
