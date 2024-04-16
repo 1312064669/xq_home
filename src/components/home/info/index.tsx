@@ -23,12 +23,9 @@ export default defineComponent({
   setup() {
 
     const socialList = ref<Social[]>([
-      { id: 'github', path: 'https://github.com/dshuais', icon: 'mdi:github', tip: '去GitHub看看~' },
-      { id: 'qq', path: 'https://res.abeim.cn/api/qq/?qq=1137896420', icon: 'basil:qq-solid', tip: '一起玩局游戏吧' },
-      { id: 'wechat', path: 'https://files.dshuais.com/images/my/wechat.png', icon: 'ic:baseline-wechat', type: 'pop', tip: '有什么事吗' },
-      { id: 'wechat-public', path: 'https://files.dshuais.com/images/my/wechat-official.png', icon: 'mingcute:wechat-miniprogram-fill', type: 'pop', tip: '订阅走起~' },
-      { id: 'email', path: 'mailto:dsshuais2020@163.com', icon: 'ic:round-email', tip: '来一封Email~' },
-      { id: 'juejin', path: 'https://juejin.cn/user/3158230569584056/posts', icon: 'tabler:brand-juejin', tip: '前排围观~' },
+      { id: 'qq', path: 'https://res.abeim.cn/api/qq/?qq=1312064669', icon: 'basil:qq-solid', tip: '有什么问题吗' },
+      { id: 'email', path: 'xqbolg@163.com', icon: 'ic:round-email', tip: '来一封Email~' },
+      { id: 'juejin', path: 'https://blog.xinqiangdai.cn', icon: 'tabler:brand-juejin', tip: '去博客看看~' },
     ])
 
     const tip = ref<string>('通过这里找到我！')
@@ -88,7 +85,7 @@ export default defineComponent({
             </svg>
           </div>
           <div class="font-Pacifico pl-8">Hello World</div>
-          <div class="text-5xl font-title ml-[-1rem] mt-4 pl-8">己所不欲勿施于人.</div>
+          <div class="text-5xl font-title ml-[-1rem] mt-4 pl-8">Make Progress Together!</div>
           <div class="w-full flex justify-end">
             <div class="text-xs w-4 h-4 relative right-0 mt-2">
               <svg data-v-03d4b6aa="" xmlns="http://www.w3.org/2000/svg" xmlnsXlink={'http://www.w3.org/1999/xlink'}
@@ -141,7 +138,7 @@ export default defineComponent({
             <div class="text-xs ml-2 text-gray-300">
               <div class="flex items-center justify-between mt-3">
                 <div class="flex items-center"><Icon name="material-symbols:calendar-today" class="mr-1" />本站已运行</div>
-                <div>{dateInterval('2022-06-28').days}天</div>
+                <div>{dateInterval('2024-04-13').days}天</div>
               </div>
               <div class="flex items-center justify-between mt-1">
                 <div class="flex items-center"><Icon name="material-symbols:visibility" class="mr-1" />总访问次数</div>
