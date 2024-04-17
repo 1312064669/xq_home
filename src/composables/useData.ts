@@ -21,6 +21,7 @@ export const useData = () => {
     { name: '主页', href: 'https://xinqiangdai.cn/', icon: 'mdi:web-check' },
     { name: '博客', href: 'https://blog.xinqiangdai.cn/', icon: 'fa6-solid:blog' },
     { name: '今日热榜', href: 'https://hot.imsyy.top/', icon: 'fa6-solid:fire' },
+    { name: '站点监测', href: 'https://jc.xinqiangdai.cn', icon: 'fa6-solid:shield-halved' },
   ])
 
   return {
