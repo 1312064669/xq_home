@@ -17,9 +17,7 @@ export default defineComponent({
         <div class="hidden lg:block">&nbsp;&nbsp;&&nbsp;&nbsp;</div>
         <div>Powered by <NuxtLink href="https://github.com/dshuais" target="_blank" class="hover:text-white">dshuais</NuxtLink>.</div>
         <div class="hidden lg:block">&nbsp;&nbsp;&&nbsp;&nbsp;</div>
-        <NuxtLink href="https://beian.miit.gov.cn" target="_blank" class="hover:text-white">鲁ICP备2024083223号</NuxtLink>.</div>
-        <div class="hidden lg:block">&nbsp;&nbsp;&&nbsp;&nbsp;</div>
-        <NuxtLink href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank" class="hover:text-white">鲁公网安备37011302000477号</NuxtLink>
+        <NuxtLink href="https://beian.miit.gov.cn" target="_blank" class="hover:text-white">鲁ICP备2024083223号/鲁公网安备37011302000477号</NuxtLink>
       </div>
     )
   }
